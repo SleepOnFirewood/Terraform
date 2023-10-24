@@ -1,4 +1,4 @@
-data "aws_ami" "example" {
+data "aws_ami" "amzlinux2" {
   most_recent = true
   owners           = ["amazon"]
 
@@ -16,7 +16,7 @@ data "aws_ami" "example" {
     name   = "virtualization-type"
     values = ["hvm"]
   }
-  
+
   filter {
     name = "architecture"
     values = ["x86_64"]

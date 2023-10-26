@@ -1,0 +1,3 @@
+#ignore private key file
+
+terraform-manifests/private-key/terraform-key.pem

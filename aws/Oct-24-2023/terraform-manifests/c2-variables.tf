@@ -21,7 +21,7 @@ variable "instance_keypair" {
 variable "instance_type_list" {
   description = "EC2 instance type list "
   type = list(string)
-  default = ["t3.micro", "t3.small"]
+  default = ["t3.micro", "t3.small", "t3.large"]
 }
 
 variable "instance_type_map" {

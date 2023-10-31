@@ -1,1 +1,1 @@
-terraform-manifests/private-key/terraform-key.pem
+*.pem

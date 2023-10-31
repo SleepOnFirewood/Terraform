@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow ssh" {
+resource "aws_security_group" "allow_ssh" {
   name        = "Allow ssh"
   description = "Allow ssh inbound traffic"
   vpc_id      = aws_vpc.main.id
@@ -24,7 +24,7 @@ resource "aws_security_group" "allow ssh" {
   }
 }
 
-resource "aws_security_group" "allow http" {
+resource "aws_security_group" "allow_http" {
   name        = "Allow http"
   description = "Allow http inbound traffic"
   vpc_id      = aws_vpc.main.id
